@@ -1,0 +1,13 @@
+version: '3'
+services:
+  react-frontend:
+    restart: "no"
+     working_dir: /usr/app/frontend
+    build: 
+      context: .
+      dockerfile: dev.Dockerfile
+    ports:
+      - "3000:3000"
+    volumes: 
+      - /usr/app/frontend/node_modules
+      - .:/usr/app/frontend
