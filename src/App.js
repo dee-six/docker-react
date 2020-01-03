@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Welcome to React</h1>
         <p>
-          Bye Deepak! And los and 
+          Bye Deepak! And los and no changes 
         </p>
         <a
           className="App-link"
